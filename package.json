@@ -1,0 +1,31 @@
+{
+  "name": "crawler-getting-started-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crawler": "ts-node src/jp-color",
+    "homework": "ts-node src/homework"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EJayCheng/node-crawler-getting-started-session.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EJayCheng/node-crawler-getting-started-session/issues"
+  },
+  "homepage": "https://github.com/EJayCheng/node-crawler-getting-started-session#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "got": "^11.8.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.30",
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
